@@ -1,0 +1,14 @@
+
+
+    
+
+h1{color: #ffffff;
+}
+p{color: #ffffff;}
+
+#header{background-color: #444;
+height: 100px;
+overflow-y: visible;}
+#content{
+    width: 640px;
+}
