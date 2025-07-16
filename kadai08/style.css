@@ -3,7 +3,8 @@
 
 #header{background-color: #4169e1;
 color: #ffff;
-text-align: center;}
+text-align : center;
+       }
 #fuudo{background-color: #4169e1;
 color: #ffff;
 text-align: center;}
@@ -37,7 +38,7 @@ text-align: center;}
 #CYaRon{
     h2{background-color: #24c2f7;}
     color: #7e00c3;
-text-align: center;}
+text-align : center;}
 
 #GuiltyKiss{
     h2{background-color: #ff94fa; color: #019964;}
