@@ -1,3 +1,6 @@
+@media screen and (max-width:979px){
+    
+
 #header{background-color: #4169e1;
 color: #ffff;
 text-align: center;}
@@ -11,25 +14,26 @@ text-align: center;}
 color: #ffff;
 text-align: center;}
 body{background-color: #ccffff;}
-#gaiyou{background-color: #b5eeee;}
+#gaiyou{background-color: #b5eeee;
+text-align: center;}
 #byuuo{
     h2{background-color: #b6c8fd;}
-}
+text-align: center;}
 #sipara{
     h2{background-color: #b6c8fd;}
-}
+text-align: center;}
 #insyoku{
     h2{background-color: #b6c8fd;}
-}
+text-align: center;}
 #noppo{
     h2{background-color: #5caafe;}
-}
+text-align: center;}
 #ajisusi{
     h2{background-color: #5caafe;}
-}
+text-align: center;}
 #kesetto{
     h2{background-color: #5caafe;}
-}
+text-align: center;}
 #CYaRon{
     h2{background-color: #24c2f7;
     color: #7e00c3;
@@ -39,8 +43,9 @@ text-align: center;}
     h2{background-color: #ff94fa; color: #019964;}
     h3{background-color: #f6fc88; color: #ff5757;}
    
-}
+text-align: center;}
 #AZALEA{
     h2{background-color: #b5e4ff; color: #ff1dc3;}
     
+text-align: center;}
 }
