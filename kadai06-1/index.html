@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>配列の利用</title>
+    <style>
+        table{
+            clear: both;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid#333333;
+            padding: 5px;
+        
+        }
+        
+        
+        td{width: 160px;}
+        p{text-align: right;}
+    </style>
+
+</head>
+<body>
+    <h1>利用料の計算
+    </h1>
+    <table>
+        <tr>
+    <th><h2>No.　　　</h2></th> <td><h2>　料金(a)</h2></td> <td><h2>　人数(b)</h2></td> <td><h2>　　a×b</h2></td>
+</tr>
+<tr>
+    <th><h2>0</h2></th> <td><p>　　　　　500</p></td> <td><p>　　　　　　10</p></td> <td><p>　　<button onclick="0();">利用料の合計</button></p></td>
+</tr> 
+<tr>
+    <th><h2>1</h2></th> <td><p>　　　　　980</p></td> <td><p>　　　　　　16</p></td> <td><p>　　<button onclick="1();">利用料の合計</button></p></td>
+</tr> 
+<tr>
+    <th><h2>2</h2></th> <td><p>　　　　　1200</p></td> <td><p>　　　　　　8</p></td> <td><p>　　<button onclick="2();">利用料の合計</button></p></td>
+</tr> 
+
+</table>
+<script>
+    function 0(){
+        let fee=500*10;
+        alert('料金は'+fee+'円です')
+    }
+     function 1(){
+        let fee=980*16;
+        alert('料金は'+fee+'円です')
+    }
+     function 2(){
+        let fee=1200*8;
+        alert('料金は'+fee+'円です')
+    }
+</script>
+</body>
+</html>
