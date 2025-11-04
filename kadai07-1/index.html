@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>複数の要素の取得</title>
+</head>
+<body>
+    <h1>人口の多い国ランキング</h1>
+    <ol  id="schedule">
+        <li>中国</li>
+        <li>インド</li>
+        <li>アメリカ</li>
+        <li>インドネシア</li>
+    </ol>
+
+    <button onclick="showanser()"><p>国旗で表示</p></button>
+<script>
+    
+       let anser=['ji','イン','アメリカ','インドネシア'];
+       let list=document.querySelectorAll('#schedule li');
+      function showanser[]{
+      list[0].TextContent=anser[0];
+      list[1].TextContent=anser[1];
+      list[2].TextContent=anser[2];
+      list[3].TextContent=anser[3];
+      }
+</script>
+</body>
+</html>
