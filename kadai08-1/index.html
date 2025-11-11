@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>要素の追加と削除</title>
+</head>
+<body>
+    <div id="header">
+    <h1>写真の一覧</h1>
+    <p >以下のボタンをクリックすると、写真一覧が表示されます。</p>
+    </div>
+    <button onclick="showanser()"><p>写真を表示</p></button>
+    <script>
+       function showanser_(){
+        let ulbox =document.getElementById("header")
+        ulbox.insertAdjacentHTML('beforeend'.seta('src','photo_1.jpg');
+       }
+      
+    </script>
+</body>
+</html>
