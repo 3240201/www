@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Click Counter★for構文</h1>
+    <p>ボタンをクリックすると、クリック回数に応じて結果が変わります。<br>JavaScriptのfor構文を使って処理を作ってみましょう。</p>
+    <button id="btn" onclick="show()">クリック</button>
+    
+    <script>
+        let clickTimes = 0;
+        let anser = 15
+        function show(){
+            clickTimes++;
+            switch(clickTimes){
+                case 1:
+                    alert('★');
+                    break;
+                case 2:
+                    alert('★★★★★');
+                    break;
+                case 3:
+                    alert('12345');
+                    break;
+                case 4:
+                    alert('2,4,6,8,10');
+                    break;
+                case 5:
+                    alert(anser);
+                    break;
+                case 6:
+                    alert('クリアしました。カウントを０に戻します。')
+                    break;
+                }
+            
+        }
+    </script>
+</body>
+</html>
