@@ -10,35 +10,37 @@
     <p>ボタンをクリックすると、クリック回数に応じて結果が変わります。<br>JavaScriptのfor構文を使って処理を作ってみましょう。</p>
     <div id="gg">クリック回数0回</div>
     <button id="btn" onclick="show()">クリック</button>
-    
+    <h3>結果</h3>
+    <div id="dd">ここに結果が表示されます</div>
     <script>
         let clickTimes = 0;
-        let anser = 15
+        
         function show(){
             clickTimes++;
             switch(clickTimes){
                 case 1:
-                    alert('★');
+                    document.getElementById('dd').textContent='★';
                     document.getElementById('gg').textContent='クリック回数1回';
                     break;
                 case 2:
-                    alert('★★★★★');
+                    document.getElementById('dd').textContent='★★★★★';
                     document.getElementById('gg').textContent='クリック回数2回';
                     break;
                 case 3:
-                    alert('12345');
+                    document.getElementById('dd').textContent='12345';
                     document.getElementById('gg').textContent='クリック回数3回';
                     break;
                 case 4:
-                    alert('2,4,6,8,10');
+                    document.getElementById('dd').textContent='2,4,6,8,10';
+                    
                     document.getElementById('gg').textContent='クリック回数4回';
                     break;
                 case 5:
-                    alert(anser);
+                    document.getElementById('dd').textContent='15';
                     document.getElementById('gg').textContent='クリック回数5回';
                     break;
                 case 6:
-                    alert('クリアしました。カウントを０に戻します。')
+                    document.getElementById('dd').textContent='クリアしました。カウントを0に戻します。';
                     document.getElementById('gg').textContent='クリック回数0回';
                     break;
                 }
